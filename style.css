@@ -245,7 +245,7 @@ h1 {
   
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 900px) {
   .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -253,7 +253,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 899px) {
   .grid {
     display: block;
     
