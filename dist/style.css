@@ -108,12 +108,14 @@ ul li .info .btn {
   display: inline-block;
   padding: 0 10px;
   border: 1px solid #fff;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
+  background-color: transparent;
   font-family: "Lato", sans-serif;
   margin-bottom: 20px;
+  opacity: 0.7;
 }
 ul li .info .description {
   display: none;
@@ -146,6 +148,8 @@ ul li .bg-img img {
     font-size: 28px;
     text-transform: uppercase;
     text-decoration: none;
+    background-color: transparent;
+    opacity: 0.7;
     color: #fff;
     font-family: "Lato", sans-serif;
     margin-bottom: 20px;
