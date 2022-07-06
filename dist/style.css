@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lustria|Lato:300);
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -19,6 +19,7 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline;
 }
+ 
 
 html {
   line-height: 1;
@@ -94,7 +95,7 @@ ul li .info {
 ul li .info h2 {
   font-family: "Lustria", serif;
   font-size: 30px;
-  line-height: 100px;
+  line-height: 50px;
 }
 ul li .info p {
   font-family: "Lato", sans-serif;
@@ -122,4 +123,31 @@ ul li .bg-img img {
   top: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+
+
+
+@media only screen and (max-device-width: 1100px) {
+  h2{
+    font-size: 400% !important;
+  }
+
+  ul li .info p {
+    font-size:45px ;
+
+  }
+
+  ul li .info .btn {
+    line-height: 80px;
+    display: inline-block;
+    padding: 0 10px;
+    border: 2px solid #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 20px;
+  }
 }
