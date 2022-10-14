@@ -14,23 +14,10 @@
             <div class="toggle"></div>
         </header>
     <div class="about-us">
-        <h1>O NAMA</h1>
-        <p>
-            Skoro jednu celu deceniju, bračni par Jelena I Petar Mirkovic su posebno zadovoljstvo u životu nalazili u vinima, vinskim pričama, obilascima I upoznavanjima vinograda, vinskih regija, vinara I vinskih kultura. Vremenom se rodila ideja da zajedno kao partneri, iako svako ima svoj posao I profesiju, jedan deo svog života posvete vinskoj kulturi I vinarstvu. Obzirom da se radi o pravnici I ekonomisti, sadnja vinograda je bila prevelik zalogaj ali trgovina I širenje vinske kulture kroz posao sa vinima je bilo baš po njihovoj meri.
-      </p>
-        <p>
-            Sa druge strane, u poplavi vinskih etiketa, stručnjaka I zbunjujućih izraza tipa “veoma kompleksno telo sa izraženim kiselinama, dugom somotskom završnicom I naglašenim notama marakuje I djumbira” shvatili su da je vino za veliki broj ljudi veoma zbunjujuća stvar koja čak izaziva I odbojnost.
-       </p>
-        <p>
-            Shvatili su, misija je približiti vino što širem broju ljudi na što lakši I jednostavniji način !
-        </p>
-        <p>
-            Iz medjusobne ljubavi I ljubavi prema vinu, rodio se partnerski projekat koji za cilj ima da vino donese u što je više domova ali bez zbunjivanja. Odlucili su da to rade pričanjem priča I deljenjem informacija  ne samo o ukusu I mirisu vina, već I o predelima I regijama odakle vino dolazi, zemljištu iz kog se radja, vinogradarimama koji ga prave. Da o svakoj boci koju prodaju imaju reći bar nekoliko rečenica u formi priče. Tako je rodjen projekat TEROAR koji ce 2021 postati I prva vinoteka u Šapcu.
-    </p>
-      
-        <a href="#about" class="btn">Read More</a>
-			
-
+        <div id="bloc-fam">
+            <div id="photo-fam"></div>
+            <div id="txt-fam">fdsfd</div>
+        </div>
 
  
 
@@ -78,6 +65,43 @@
             </div>
         </div>
    </footer>
+
+    <div class="menu">
+        <ul class="chr">
+            <li><a   href='../index.html'>Home</a></li>
+            <li><a   href="aboutUs.html">News</a></li>
+            <li><a  href='../aboutUs/aboutUs.html'>Garerija</a></li>
+            <li><a   href="#">Blog</a></li>
+            <li><a  href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const about = document.querySelector('.about-us');
+ 
+        const footer = document.querySelector('.footer')
+        const menu = document.querySelector('.menu')
+        const chr = document.querySelector('.chr')
+       
+    
+        menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+       
+        chr.classList.toggle('active')
+        menu.classList.toggle('active');
+        about.classList.toggle('active');
+       
+      
+        footer.classList.toggle('active')
+      
+      })
+    </script>
+
+
+
+
+
           
  
 

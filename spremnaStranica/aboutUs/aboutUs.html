@@ -8,57 +8,17 @@
 
     </head>
     <body>
-        <div class="grif"> 
-        <section class="showcase">
-            <header class="header">
-                <h2 class="logo">TEROAR</h2>
-                <div class="toggle"></div>
-            </header>
-			<div class="video-container">
-				<video src="background.mp4" autoplay muted loop></video>
-			</div>
-			<div class="content">
-				<h1>TEROAR</h1>
-			 
-				<a href="#about" class="btn">Read More</a>
-			</div>
-		</section>
+ 
+        <header class="header">
+            <h2 class="logo">TEROAR</h2>
+            <div class="toggle"></div>
+        </header>
+    <div class="about-us">
+  
 
-		<section class ="nako" id="about">
-            <div class = "grid ">
-                <div class ="col pho">
-                    <div class ="photo"><img  src="slika2.jpg" width="800" height="550"></div> 
-                </div>
-                <div class ="col txt">
-                    <h2> O nama</h2>
-                    <p>Svaka priča o vinu počinje  </p>
-                    <a href='/aboutUs/aboutUs.html' class="btn"> About Us </a>
-                    
-                </div>
-                <div class ="col txt">
-                    <h2> Lorem Ipsum</h2>
-                    <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae </p>
-                    <a href='dist/index.html' class="btn"> Procitaj vise o ponudi </a>
-                    
-                </div>
-                <div class ="col pho">
-                    <img src="11.jpg"  width="800" height="550">
-                </div>
-                <div class ="col pho">
-                    <img src="33.jpg"  width="800" height=550">
-                </div>
-                <div class ="col txt">
-                    <h2> Lorem Ipsum</h2>
-                    <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae </p>
-                    <a href='gal/index.html' class="btn"> Galerija </a>
-                    
-                  </div>
+ 
 
-            </div>
-		 
-		</section>
     </div>
-
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -102,41 +62,45 @@
             </div>
         </div>
    </footer>
-          
-           
+
     <div class="menu">
         <ul class="chr">
-            <li><a   href='index.html'>Home</a></li>
-            <li><a   href="aboutUs/aboutUs.html">News</a></li>
+            <li><a   href='../index.html'>Home</a></li>
+            <li><a   href="#about">News</a></li>
             <li><a  href='gal/index.html'>Garerija</a></li>
             <li><a   href="#">Blog</a></li>
             <li><a  href="#">Contact</a></li>
         </ul>
     </div>
-    
+
     <script>
         const menuToggle = document.querySelector('.toggle');
-        const showcase = document.querySelector('.showcase');
-        const menu = document.querySelector('.header'); 
-        const nako = document.querySelector('.nako')
+        const about = document.querySelector('.about-us');
+ 
         const footer = document.querySelector('.footer')
+        const menu = document.querySelector('.menu')
         const chr = document.querySelector('.chr')
-        const grid = document.querySelector('.grid')
-   
-
+       
+    
         menuToggle.addEventListener('click', () => {
         menuToggle.classList.toggle('active');
-        showcase.classList.toggle('active');
-        menu.classList.toggle('active');
-        nako.classList.toggle('active');
-        footer.classList.toggle('active')
+       
         chr.classList.toggle('active')
-        grid.classList.toggle('active')
-    
+        menu.classList.toggle('active');
+        about.classList.toggle('active');
+       
+      
+        footer.classList.toggle('active')
+      
       })
     </script>
 
 
+
+
+
+          
+ 
 
     </body>
 </html>

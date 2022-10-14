@@ -57,6 +57,9 @@
 }
 
 
+
+
+
   .back{
     position: fixed;
     left: 5px;
@@ -89,7 +92,7 @@
     height: 100vh;
      
   }
-/*   
+  
   .btn {
 	display: inline-block;
 	padding: 10px 30px;
@@ -105,30 +108,7 @@
 
 .btn:hover {
 	transform: scale(0.98);
-} */
-
-
- 
-
-/*  ovaj deo je samo za komp slika levo text desno  */ 
-
-#bloc-fam{
-	text-align: center;
-	padding: 30px;
 }
-#photo-fam , #txt-fam{
-	display: inline;
-	
-}
-#photo-fam{
-	background-image:url( "../famPhoto.jpg");
-	position:relative;
-	height: 600px;
-	width: 800px;
-}
-
-
-
 
 
 
