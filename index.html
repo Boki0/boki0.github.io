@@ -19,7 +19,7 @@
 			</div>
 			<div class="content">
 				<h1>TEROAR</h1>
-				<h3>Fafa dobrog vina</h3>
+			 
 				<a href="#about" class="btn">Read More</a>
 			</div>
 		</section>
@@ -106,9 +106,9 @@
            
     <div class="menu">
         <ul class="chr">
-            <li><a   href="#">Home</a></li>
+            <li><a   href='index.html'>Home</a></li>
             <li><a   href="#about">News</a></li>
-            <li><a  href="#">Destination</a></li>
+            <li><a  href='gal/index.html'>Garerija</a></li>
             <li><a   href="#">Blog</a></li>
             <li><a  href="#">Contact</a></li>
         </ul>
@@ -121,6 +121,8 @@
         const nako = document.querySelector('.nako')
         const footer = document.querySelector('.footer')
         const chr = document.querySelector('.chr')
+        const grid = document.querySelector('.grid')
+   
 
         menuToggle.addEventListener('click', () => {
         menuToggle.classList.toggle('active');
@@ -129,6 +131,8 @@
         nako.classList.toggle('active');
         footer.classList.toggle('active')
         chr.classList.toggle('active')
+        grid.classList.toggle('active')
+    
       })
     </script>
 

@@ -2,16 +2,17 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=divice-width", initial-scale="1.0">
   <title>CodePen - Responsive Gallery with Flexbox</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styleGal.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
 
 </head>
 <body>
   <header class = "header">
-    <a href="../index.html" class="back"></a>
-    <h1>TEROAR</h1>
+    <h2 class="logo">TEROAR</h2>
+    <div class="toggle"></div>
   </header>
 <!-- partial:index.partial.html -->
 <div class="grid">
@@ -98,6 +99,44 @@
   </div>
 </footer>
 <!-- partial -->
+
+
+
+
+<div class="menu">
+    <ul class="chr">
+        <li><a   href='../index.html'>Home</a></li>
+        <li><a   href="#about">News</a></li>
+        <li><a  href='gal/index.html'>Garerija</a></li>
+        <li><a   href="#">Blog</a></li>
+        <li><a  href="#">Contact</a></li>
+    </ul>
+</div>
+
+
+
+<script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+    const menu = document.querySelector('.header'); 
+    const grid = document.querySelector('.grid')
+    const footer = document.querySelector('.footer')
+    const chr = document.querySelector('.chr')
+
+    menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+   
+    menu.classList.toggle('active');
+   
+    grid.classList.toggle('active');
+    footer.classList.toggle('active')
+    chr.classList.toggle('active')
+  })
+</script>
+
+
+
+
   
 </body>
 </html>
