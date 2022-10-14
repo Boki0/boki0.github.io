@@ -55,9 +55,12 @@
   cursor: pointer;
    
 }
+h1{
+	font-size: 2.5em;
+}
 
 
-  .back{
+.back{
     position: fixed;
     left: 5px;
     top:5px;
@@ -86,7 +89,8 @@
     padding-top: 130px;
     color: white;
     background-color: black;
-    height: 100vh;
+    /* height: 200vh; */
+	height: max-content;
      
   }
 /*   
@@ -115,18 +119,32 @@
 #bloc-fam{
 	text-align: center;
 	padding: 30px;
+	padding-right: 0px;
+	display: flex;
 }
-#photo-fam , #txt-fam{
+#txt-fam, #photo-fam  {
 	display: inline;
 	
 }
-#photo-fam{
-	background-image:url( "../famPhoto.jpg");
-	position:relative;
-	height: 600px;
-	width: 800px;
+#txt-fam p{
+	text-align: left;
+ 
 }
+ 
+#photo-fam img{
+	width: 590px;
+	height: 1100px;
+	object-fit: fill;
+	float: right;
 
+	 
+}
+#cont-txt{
+	min-width: 400px;
+ 
+
+}
+ 
 
 
 
@@ -306,6 +324,14 @@ ul{
 		margin-right: 600px;
 	}
 
+	#bloc-fam{
+		flex-direction: column;
+	}
+
+	.sve.active{
+		visibility: hidden;
+	}
+
 
 
 
@@ -315,4 +341,12 @@ ul{
   .footer-col{
     width: 100%;
 }
+#bloc-fam{
+	flex-direction: column;
+	
+}
+.sve.active{
+	visibility: hidden;
+}
+
 }
