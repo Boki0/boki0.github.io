@@ -89,7 +89,9 @@
     padding-top: 130px;
     color: white;
     background-color: black;
-    height: 100vh;
+    height: 100%;
+	padding-bottom: 30px;
+	min-height: 100vh;
      
   }
   
@@ -242,7 +244,20 @@ ul{
 /* =================== */
 
 
+h4{
+	font-size: 3em;
+}
 
+
+
+.infoTeroar{
+	text-align: left;
+	padding: 50px;
+	border-color: #ffffff;
+	border-width: 2px;
+	border-style: dashed;
+	 
+}
 
 
 
@@ -262,7 +277,24 @@ ul{
 }
 
 
-  
+@media(min-width: 1100px){
+
+
+	#kont{
+		padding-left: 200px;
+		padding-right: 200px;
+		display: flex;
+		flex-direction: row;
+		padding-top: 100px;
+	}
+
+}
+
+#kont{
+	font-size: 1.2em;
+ 
+}
+
 
 
 
@@ -284,6 +316,12 @@ ul{
 	}
 	.about-us.active{
 		margin-right: 600px;
+	}
+	#kont{
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 100px;
+
 	}
 
 
