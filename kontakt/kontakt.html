@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divice-width", initial-scale="1.0">
+        <link rel ="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    </head>
+    <body>
+ 
+        <header class="header">
+            <h2 class="logo">TEROAR</h2>
+            <div class="toggle"></div>
+        </header>
+    <div class="about-us">
+  
+
+ 
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">wine</a></li>
+                        <li><a href="#">liqueurs</a></li>
+                        <li><a href="#">accessories</a></li>
+                        <li><a href="#">packaging</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Teroar.rs"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/teroar.rs"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+    <div class="menu">
+        <ul class="chr">
+            <li><a   href='../index.html'>Home</a></li>
+            <li><a   href="#about">News</a></li>
+            <li><a  href='gal/index.html'>Garerija</a></li>
+            <li><a   href="#">Blog</a></li>
+            <li><a  href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const about = document.querySelector('.about-us');
+ 
+        const footer = document.querySelector('.footer')
+        const menu = document.querySelector('.menu')
+        const chr = document.querySelector('.chr')
+       
+    
+        menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+       
+        chr.classList.toggle('active')
+        menu.classList.toggle('active');
+        about.classList.toggle('active');
+       
+      
+        footer.classList.toggle('active')
+      
+      })
+    </script>
+
+
+
+
+
+          
+ 
+
+    </body>
+</html>

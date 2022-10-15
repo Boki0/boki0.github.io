@@ -72,12 +72,7 @@
   
     
   }
-
-
-
-
-
-  .nuic-page{
+  .about-us{
  
     /* background-image: url("../poz.jpg");
     background-color: black;  */
@@ -94,49 +89,10 @@
     padding-top: 130px;
     color: white;
     background-color: black;
-    height: 100%;
-	padding-bottom: 50px;
+    height: 100vh;
      
   }
   
-  @media(min-width: 1100px){
-	#cont{
-		padding-left: 200px;
-		padding-right: 200px;
-	}
-
-
-  }
-
-  .vina{
-	text-align: left;
-  }
-
-
-  .proizvodi{
-	display: flex;
-	flex-direction: row;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .btn {
 	display: inline-block;
 	padding: 10px 30px;
@@ -266,7 +222,7 @@ ul{
 {
   text-decoration: none;
   font-size: 30px;
-   color: white; 
+   color: white; !important
  
 }
 .menu ul li a:hover
@@ -301,7 +257,7 @@ ul{
   margin-right: 300px;
   }
 
-.nuic-page.active{
+.about-us.active{
 	margin-right: 300px;
 }
 
@@ -326,15 +282,10 @@ ul{
 	.footer.active{
 		margin-right: 600px;
 	}
-	.nuic-page.active{
-		/* margin-right: 600px; */
-		visibility: hidden;
+	.about-us.active{
+		margin-right: 600px;
 	}
-	.yvideo{
-		width: 600px;
-		height: 340px;
-	}
-	
+
 
 
 
@@ -343,9 +294,5 @@ ul{
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
-}
-.nuic-page.active{
-	margin-right: 600px;
-	visibility: hidden;
 }
 }
