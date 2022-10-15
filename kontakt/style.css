@@ -256,6 +256,7 @@ h4{
 	border-color: #ffffff;
 	border-width: 2px;
 	border-style: dashed;
+	min-width: 600px;
 	 
 }
 
