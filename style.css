@@ -462,13 +462,17 @@ ul{
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
+  
 }
 
 
-@media only screen and (max-device-width: 10650px) {
+@media only screen and (max-device-width: 1650px) {
   .grid {
     display: block;
   }
   #about {
    padding:0px; 
 }
+.menu{
+	width: 600px;
+}}

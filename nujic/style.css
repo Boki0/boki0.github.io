@@ -55,12 +55,12 @@
   cursor: pointer;
    
 }
-h1{
-	font-size: 2.5em;
-}
 
 
-.back{
+
+
+
+  .back{
     position: fixed;
     left: 5px;
     top:5px;
@@ -72,7 +72,12 @@ h1{
   
     
   }
-  .about-us{
+
+
+
+
+
+  .nuic-page{
  
     /* background-image: url("../poz.jpg");
     background-color: black;  */
@@ -89,11 +94,48 @@ h1{
     padding-top: 130px;
     color: white;
     background-color: black;
-    /* height: 200vh; */
-	height: max-content;
+    height: 600vh;
      
   }
-/*   
+  
+  @media(min-width: 1100px){
+	#cont{
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+
+
+  }
+
+  .vina{
+	text-align: left;
+  }
+
+
+  .proizvodi{
+	display: flex;
+	flex-direction: row;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .btn {
 	display: inline-block;
 	padding: 10px 30px;
@@ -109,44 +151,7 @@ h1{
 
 .btn:hover {
 	transform: scale(0.98);
-} */
-
-
- 
-
-/*  ovaj deo je samo za komp slika levo text desno  */ 
-
-#bloc-fam{
-	text-align: center;
-	padding: 30px;
-	padding-right: 0px;
-	display: flex;
 }
-#txt-fam, #photo-fam  {
-	display: inline;
-	
-}
-#txt-fam p{
-	text-align: left;
- 
-}
- 
-#photo-fam img{
-	width: 590px;
-	height: 1100px;
-	object-fit: fill;
-	float: right;
-
-	 
-}
-#cont-txt{
-	min-width: 400px;
- 
-
-}
- 
-
-
 
 
 
@@ -260,7 +265,7 @@ ul{
 {
   text-decoration: none;
   font-size: 30px;
-   color: white; !important
+   color: white; 
  
 }
 .menu ul li a:hover
@@ -295,7 +300,7 @@ ul{
   margin-right: 300px;
   }
 
-.about-us.active{
+.nuic-page.active{
 	margin-right: 300px;
 }
 
@@ -320,21 +325,15 @@ ul{
 	.footer.active{
 		margin-right: 600px;
 	}
-	.about-us.active{
-		margin-right: 600px;
-	}
-
-	#bloc-fam{
-		flex-direction: column;
-	}
-
-	.sve.active{
+	.nuic-page.active{
+		/* margin-right: 600px; */
 		visibility: hidden;
 	}
-
-	.menu{
+	.yvideo{
 		width: 600px;
+		height: 340px;
 	}
+	
 
 
 
@@ -344,15 +343,8 @@ ul{
   .footer-col{
     width: 100%;
 }
-#bloc-fam{
-	flex-direction: column;
-	
-}
-.sve.active{
+.nuic-page.active{
+	margin-right: 600px;
 	visibility: hidden;
 }
-.menu{
-	width: 600px;
-}
-
 }

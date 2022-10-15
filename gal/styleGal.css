@@ -318,10 +318,18 @@ margin-right: 300px;
     width: 50%;
     margin-bottom: 30px;
 }
+
+.menu{
+	width: 600px;
+}
 }
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
+}
+
+.menu{
+	width: 600px;
 }
 }
 
@@ -351,6 +359,9 @@ margin-right: 300px;
   font-size: 50px;
    color: white;
  
+  }
+  .menu{
+    width: 600px;
   }
 
 
