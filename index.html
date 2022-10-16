@@ -160,21 +160,22 @@
     <script>
         const menuToggle = document.querySelector('.toggle');
         const showcase = document.querySelector('.showcase');
-        const menu = document.querySelector('.header'); 
+        
         const nako = document.querySelector('.nako')
         const footer = document.querySelector('.footer')
         const chr = document.querySelector('.chr')
         const grid = document.querySelector('.grid')
-   
+        const menu = document.querySelector('.menu')
 
         menuToggle.addEventListener('click', () => {
         menuToggle.classList.toggle('active');
         showcase.classList.toggle('active');
-        menu.classList.toggle('active');
+     
         nako.classList.toggle('active');
         footer.classList.toggle('active')
         chr.classList.toggle('active')
         grid.classList.toggle('active')
+        menu.classList.toggle('active')
     
       })
     </script>
