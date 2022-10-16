@@ -14,7 +14,7 @@
             <div class="toggle"></div>
         </header>
     <div class="about-us">
-        
+        <div class = "cont">
             <div>
                 <h4>KONTAKT</h4>
             <div id="kont">
@@ -30,7 +30,8 @@
 
         </div>
 
-        
+    </div>
+
   
 
  
@@ -42,20 +43,19 @@
                 <div class="footer-col">
                     <h4>company</h4>
                     <ul>
-                        <li><a href="#">about us</a></li>
-                        <li><a href="#">our services</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">affiliate program</a></li>
+                        <li><a href="../aboutUs/aboutUs.html">O nama</a></li>
+                        <li><a href="../nujic/nujicPage.html">Vinarija Nujic</a></li>
+                        <li><a href="../enjingi/enjingi.html">Vinarija Enjingi</a></li>
+                         
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>get help</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment options</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="../gal/index.html">Galerija</a></li>
+                        <li><a href="../index.html">Počtna</a></li>
+                     
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -98,7 +98,7 @@
         const footer = document.querySelector('.footer')
         const menu = document.querySelector('.menu')
         const chr = document.querySelector('.chr')
-       
+        const cont = document.querySelector('.cont')
     
         menuToggle.addEventListener('click', () => {
         menuToggle.classList.toggle('active');
@@ -106,6 +106,7 @@
         chr.classList.toggle('active')
         menu.classList.toggle('active');
         about.classList.toggle('active');
+        cont.classList.toggle('active');
        
       
         footer.classList.toggle('active')

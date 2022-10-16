@@ -324,6 +324,12 @@ h4{
 		padding-top: 100px;
 
 	}
+	.cont.active{
+		visibility: hidden;
+	}
+	.menu{
+		width: 600px;
+	}
 
 
 
@@ -334,4 +340,11 @@ h4{
   .footer-col{
     width: 100%;
 }
+.cont.active{
+	visibility: hidden;
+}
+.menu{
+	width: 600px;
+}
+
 }

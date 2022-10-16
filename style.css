@@ -443,6 +443,9 @@ ul{
     width: 50%;
     margin-bottom: 30px;
 }
+.menu{
+	width: 600px;
+}
  
 }
 @media(max-width: 574px){
@@ -452,6 +455,9 @@ ul{
   .showcase.active
   {
     right: 600px;
+  }
+  .menu{
+    width: 600px;
   }
 }
  

@@ -90,7 +90,7 @@ h1{
     color: white;
     background-color: black;
     /* height: 200vh; */
-	height: max-content;
+	height: 100%;
      
   }
 /*   
@@ -119,6 +119,7 @@ h1{
 #bloc-fam{
 	text-align: center;
 	padding: 30px;
+	padding-bottom: 0px;
 	padding-right: 0px;
 	display: flex;
 }
@@ -132,8 +133,8 @@ h1{
 }
  
 #photo-fam img{
-	width: 590px;
-	height: 1100px;
+	width: 790px;
+	height: 1200px;
 	object-fit: fill;
 	float: right;
 

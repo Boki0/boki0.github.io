@@ -100,7 +100,7 @@
   }
   
   @media(min-width: 1100px){
-	#cont{
+	.cont{
 		padding-left: 200px;
 		padding-right: 200px;
 	}
@@ -327,14 +327,19 @@ ul{
 		margin-right: 600px;
 	}
 	.nuic-page.active{
-		/* margin-right: 600px; */
+		margin-right: 600px;
+		
+	}
+	.cont.active{
 		visibility: hidden;
 	}
 	.yvideo{
 		width: 600px;
 		height: 340px;
 	}
-	
+	.menu{
+		width: 600px;
+	}
 
 
 
@@ -346,6 +351,12 @@ ul{
 }
 .nuic-page.active{
 	margin-right: 600px;
+	 
+}
+.cont.active{
 	visibility: hidden;
+}
+.menu{
+	width: 600px;
 }
 }
