@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+  
+}
+
+ 
+ 
+
+
+
+ 
+
+
+
+  .nuic-page{
+ 
+    /* background-image: url("../poz.jpg");
+    background-color: black;  */
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+     
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    text-align: center;
+    padding-top: 130px;
+  
+    background-color:  #f4f4f4;
+    height: 100%;
+	padding-bottom: 50px;
+     
+  }
+  
+  @media(min-width: 1100px){
+	.cont{
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+
+
+  }
+
+  .vina{
+	text-align: left;
+  }
+
+
+  .proizvodi{
+	display: flex;
+	flex-direction: row;
+    
+    
+    box-shadow: rgba(17, 17, 26, 0.4) 0px 2px 0px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+.slika-vina:hover{
+    transform: scale(1.7);
+}
+
+
+
+
+
+
+
+
+  .btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background: var(--primary-color);
+ 
+	color: #fff;
+	border-radius: 5px;
+	border: solid #fff 1px;
+	margin-top: 25px;
+	opacity: 0.7;
+    z-index: 1;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+}
+
+
+
+
+
+/* footer */
+ 
+  
+
+
+
+/*responsive*/
+@media(max-width: 1100px){
+ 
+ 
+ 
+	.nuic-page.active{
+		margin-right: 600px;
+		 
+	}
+	.cont.active{
+		visibility: hidden;
+	}
+	.yvideo{
+		width: 600px;
+		height: 340px;
+	}
+ 
+
+
+
+
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+.nuic-page.active{
+	margin-right: 600px;
+	 
+}
+.cont.active{
+	visibility: hidden;
+}
+ 
+}

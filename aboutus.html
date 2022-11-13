@@ -8,14 +8,14 @@
 	<title>Teroar</title>
 	
 	<link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="banner.css">
-    <link rel="stylesheet" href="style-index.css">
+ 
+    <link rel="stylesheet" href="aboutus.css">
     <link rel="stylesheet" href="footer.css">
 	
 </head>
 <body>
     <header>
-        <a href ="#" class="logo"><img src="logo.jpg"></a>
+        <a href ="index.html" class="logo"><img src="logo.jpg"></a>
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar">Menu</label> 
         <nav class="navbar"> 
@@ -33,59 +33,49 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <div class="slider-container" >
-            <div class="slider"> 
-                <a href="#"><img src="banner-images/bannerimage1.jpg" alt="Image"></a>
-            </div>
-            <div class="slider"> 
-                <a href="#"><img src="banner-images/bannerimage2.jpg" alt="Image"></a>
-            </div>
-            <div class="slider"> 
-                <a href="#"><img src="banner-images/bannerimage3.jpg" alt="Image"></a>
-            </div>
-            <div class="slider"> 
-                <a href="#"><img src="banner-images/bannerimage4.jpeg" alt="Image"></a>
-            </div>
-            <div class="prev-button" onclick="plusSlide(-1)">&#10094;</div>
-            <div class="next-button"  onclick="plusSlide(1)">&#10095;</div>
-            <div class="lines">
-                <div class="line" onclick="currentSlide(1)"></div>
-                <div class="line" onclick="currentSlide(2)"></div>
-                <div class="line" onclick="currentSlide(3)"></div>
-                <div class="line" onclick="currentSlide(4)"></div>
-            </div>
-        </div>
-        
-    </div>
-    <div class="cont-preporuka"> 
-        <div class="nasa-preporuka-container kvadrat">
-            <h1>Naša preporuka nedelje</h1>
-            <div class ="nasa-preporuka">
-                <img src="enjingi7-removebg-preview.png" style="height: 300px; float: left;" id="slika-vina" alt="slika">
-                 
-                <h4>VENJE CRNO 2007   </h4><br>
-                <p>
-                    Mešavina najboljeg grožđa različitih sorti pažljivo odabrani bobica – Zweigelt, Pinot crni, Frankovka, Cabernet Souvignon. Punih 18 meseci dozreva isključivo u hrastovini, a nakon toga odležava u bocama. Jak miris na nosu, slatkasto-prezrelo voće zweigeltovske prodornosti, uz dosta topline i diskretan hrast. Iz te topline izbija i čudesan cvetni parfem što čini doživljaj kompleksnijim. Punog tela kao slatkasti sirup iz koncentrata a opet sa sa reskom skoro “gaziranom” svežinom.
-                    <br>Alkohol 14%, Rezidualni šećer 2,4 g/l, Kiseline 5,6 g/L
-                    <br><br>Gastro preporuka: Pečena jela od crvenog mesa, ali i dezerti sa tamnom čokoladom. Može i bez jela, uz dobru cigaru.
 
-                </p>
+
+
+    <div class="about-us">
+        
+        <div class="sve" id="bloc-fam">
+            <div id="txt-fam">
+                <h1>O NAMA</h1>
+                <br>
+                <div id="cont-txt">
+                    <p>Skoro jednu celu deceniju, bračni par Jelena I Petar Mirkovic su posebno zadovoljstvo u životu nalazili u vinima, vinskim pričama, obilascima I upoznavanjima vinograda, vinskih regija, vinara I vinskih kultura. Vremenom se rodila ideja da zajedno kao partneri, iako svako ima svoj posao I profesiju, jedan deo svog života posvete vinskoj kulturi I vinarstvu. Obzirom da se radi o pravnici I ekonomisti, sadnja vinograda je bila prevelik zalogaj ali trgovina I širenje vinske kulture kroz posao sa vinima je bilo baš po njihovoj meri.</p><br>
+                    <p>Sa druge strane, u poplavi vinskih etiketa, stručnjaka I zbunjujućih izraza tipa “veoma kompleksno telo sa izraženim kiselinama, dugom somotskom završnicom I naglašenim notama marakuje I djumbira” shvatili su da je vino za veliki broj ljudi veoma zbunjujuća stvar koja čak izaziva I odbojnost.</p><br>
+                    <p>Shvatili su, misija je približiti vino što širem broju ljudi na što lakši I jednostavniji način !</p><br>
+                    <p>Iz medjusobne ljubavi I ljubavi prema vinu, rodio se partnerski projekat koji za cilj ima da vino donese u što je više domova ali bez zbunjivanja. Odlucili su da to rade pričanjem priča I deljenjem informacija  ne samo o ukusu I mirisu vina, već I o predelima I regijama odakle vino dolazi, zemljištu iz kog se radja, vinogradarimama koji ga prave. Da o svakoj boci koju prodaju imaju reći bar nekoliko rečenica u formi priče. Tako je rodjen projekat TEROAR koji ce 2021 postati I prva vinoteka u Šapcu.</p><br>
+                    <p>Danas se TEROAR iz Šapca bavi sledećim poslovima:</p>
+                    <p> 
+
+                        - Uvoz I distribucija vina VINOGRADI NUIĆ<br>
+                        
+                        - Uvoz I distribucija vina ENJINGI<br>
+                        
+                        - Vinoteka sa preko 400 boca vina u asortimanu<br>
+                        
+                        - Izrada vinskih karata<br>
+                        
+                        - Obuka zaposlenih u restoranima<br>
+                        
+                        - Organizacija vinskih dogadjaja.<br></p>
+                
+                
+                </div>
+            
             </div>
+            <div id="photo-fam"><img src="boki.png" ></div>
+            
         </div>
-        <div class="novosti-container ">
-            <button class="vesti dugme">Novosti</button>
-            <button class="pokloni dugme">Pokloni</button>
-            <button class="vinski-pribor dugme">Vinski pribor</button>
-        </div>
-        <div class="vinska-skola-container kvadrat">
-            <h1>Škola vina</h1>
-            <p>Dragi vinoljubci, imamo sjajne vesti!!! 
-                Prva vikend škola vina biće organizovana u degustacionoj sali Teroara 08.10.2022.godine od 18h a u goste nam stiže sjajna @marijavinarija !!! 
-                Broj mesta je ograničen a sve informacije možete dobiti na telefon 0638315285</p>
-            <button class="dugme-skola">Detaljnije</button>
-        </div>
+
+
     </div>
+
+
+
+
 
  
     <footer class="footer">

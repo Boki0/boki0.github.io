@@ -1,0 +1,144 @@
+ 
+h1{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #333;
+}
+
+
+.cont-preporuka{
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 13pt;
+  
+}
+
+.kvadrat{
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+    border: 2px solid rgba(0,0,0, .1);
+    z-index: 10;
+    text-align: center;
+    word-spacing: 0.25em;
+ 
+
+}
+ 
+
+.kvadrat:hover{
+    box-shadow: 10px 5px 5px rgba(0,0,0, .4);
+
+}
+.dugme:hover{
+    box-shadow: 10px 5px 5px rgba(0,0,0, .4);
+    transform: scale(1.05);
+
+}
+.dugme.active{
+ 
+    box-shadow: 10px 5px 5px rgba(0,0,0, .8);
+    
+  
+
+}
+
+.dugme{
+    width: 500px;
+    height: 150px;
+  
+    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+    border: 2px solid rgba(0,0,0, .1);
+    font-size: 30pt;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.pokloni {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url('banner-images/pokloni-vinski.jpg');
+    
+}
+.vesti{
+    background: url('banner-images/novosti-vinske.jpg');
+}
+.vinski-pribor{
+    background: url('banner-images/vinski-pribor.jpg');
+}
+
+
+ 
+.slika-vina{
+    margin: 10px;
+    margin-top: 30px;
+    float: left;
+}
+
+
+
+
+
+p{
+    text-align: justify;
+    color: #333;
+    word-spacing: normal;
+     
+}
+ 
+
+
+.novosti-container{
+    /* background: red; */
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+    height: 500px;
+    width: 500px;
+ 
+    position: relative;
+    padding: auto;
+    z-index: 10;
+ 
+
+}
+
+
+
+
+.vinska-skola-container{
+    /* background: yellow; */
+   
+  
+    
+
+}
+
+
+.dugme-skola:hover{
+    box-shadow: 10px 5px 5px rgba(0,0,0, .4);
+    transform: scale(1.05);
+    
+
+}
+
+.dugme-skola{
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+
+    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+    height: 50px;
+    width: 100px;
+    background: #333;
+    color: white;
+    margin-bottom: 30px;
+    
+}

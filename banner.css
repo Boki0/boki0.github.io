@@ -1,0 +1,83 @@
+.container{
+    width: 100%;
+    height: auto;
+    /* background: rgba(92, 88, 88, 0.6); */
+    margin-top: 63px;
+}
+.slider-container{
+    max-width: 1600px;
+    height:auto;
+    margin:auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.prev-button,
+.next-button{
+    width: 40px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(240,240,255,0.7);
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.3s ease;
+}
+
+.prev-button{
+    left: 0;
+}
+.next-button{
+    right: 0;
+}
+
+.next-button:hover,
+.prev-button:hover{
+    color: white;
+}
+
+.lines{
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+}
+
+.line{
+    padding: 1.5px 10px;
+    margin: 0 3px;
+    background-color: rgba(240,240,255,0.7);
+    cursor: pointer;
+    transition:  background-color 0.3s ease;
+}
+
+.active,
+.line:hover{
+    background-color: white;
+}
+
+.slider{
+    display: none;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+ 

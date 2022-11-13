@@ -1,0 +1,165 @@
+ 
+   
+h1{
+	font-size: 2.5em;
+}
+
+
+ 
+  .about-us{
+ 
+    /* background-image: url("../poz.jpg");
+    background-color: black;  */
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+     
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    text-align: center;
+    padding-top: 130px;
+    color: #333;
+    background-color:  #f4f4f4;
+    /* height: 200vh; */
+	height: 100%;
+     
+  }
+/*   
+  .btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background: var(--primary-color);
+ 
+	color: #fff;
+	border-radius: 5px;
+	border: solid #fff 1px;
+	margin-top: 25px;
+	opacity: 0.7;
+    z-index: 1;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+} */
+
+
+ 
+
+/*  ovaj deo je samo za komp slika levo text desno  */ 
+
+#bloc-fam{
+	text-align: center;
+	padding: 30px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	display: flex;
+}
+#txt-fam, #photo-fam  {
+	display: inline;
+	
+}
+#txt-fam p{
+	text-align: left;
+ 
+}
+ 
+#photo-fam img{
+	width: 790px;
+	height: 1200px;
+	object-fit: fill;
+	float: right;
+
+	 
+}
+#cont-txt{
+	min-width: 400px;
+ 
+
+}
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+.manu.active{
+	right: 300px;
+	z-index: 1;
+  }
+  
+  
+  
+.footer.active{
+  margin-right: 300px;
+  }
+
+.about-us.active{
+	margin-right: 300px;
+}
+
+
+  
+
+
+
+/*responsive*/
+@media(max-width: 1100px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+	
+	.menu ul li a{
+	text-decoration: none;
+	font-size: 50px;
+		color: white;
+	}
+
+	.footer.active{
+		margin-right: 600px;
+	}
+	.about-us.active{
+		margin-right: 600px;
+	}
+
+	#bloc-fam{
+		flex-direction: column;
+	}
+
+	.sve.active{
+		visibility: hidden;
+	}
+
+	.menu{
+		width: 600px;
+	}
+
+
+
+
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+#bloc-fam{
+	flex-direction: column;
+	
+}
+.sve.active{
+	visibility: hidden;
+}
+.menu{
+	width: 600px;
+}
+
+}
